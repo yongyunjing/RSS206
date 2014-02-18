@@ -21,6 +21,7 @@
 		FD16532C18B37B9C00D3C1AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD16530E18B37B9B00D3C1AD /* UIKit.framework */; };
 		FD16533418B37B9C00D3C1AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD16533218B37B9C00D3C1AD /* InfoPlist.strings */; };
 		FD16533618B37B9C00D3C1AD /* RSS206Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD16533518B37B9C00D3C1AD /* RSS206Tests.m */; };
+		FD16534118B37C1A00D3C1AD /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FD16534018B37C1A00D3C1AD /* RSSEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FD16533118B37B9C00D3C1AD /* RSS206Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSS206Tests-Info.plist"; sourceTree = "<group>"; };
 		FD16533318B37B9C00D3C1AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD16533518B37B9C00D3C1AD /* RSS206Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSS206Tests.m; sourceTree = "<group>"; };
+		FD16533F18B37C1A00D3C1AD /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSEntry.h; path = ../RSSEntry.h; sourceTree = "<group>"; };
+		FD16534018B37C1A00D3C1AD /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSEntry.m; path = ../RSSEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		FD16531018B37B9C00D3C1AD /* RSS206 */ = {
 			isa = PBXGroup;
 			children = (
+				FD16533F18B37C1A00D3C1AD /* RSSEntry.h */,
+				FD16534018B37C1A00D3C1AD /* RSSEntry.m */,
 				FD16531918B37B9C00D3C1AD /* AppDelegate.h */,
 				FD16531A18B37B9C00D3C1AD /* AppDelegate.m */,
 				FD16531C18B37B9C00D3C1AD /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				FD16532118B37B9C00D3C1AD /* ViewController.m in Sources */,
 				FD16531B18B37B9C00D3C1AD /* AppDelegate.m in Sources */,
 				FD16531718B37B9C00D3C1AD /* main.m in Sources */,
+				FD16534118B37C1A00D3C1AD /* RSSEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
