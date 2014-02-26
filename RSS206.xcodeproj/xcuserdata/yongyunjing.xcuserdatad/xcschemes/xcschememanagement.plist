@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RSS206.xcscheme</key>
+		<key>RSSFun.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FD16530618B37B9B00D3C1AD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FD16532718B37B9C00D3C1AD</key>
+		<key>1D6058900D05DD3D006BFB54</key>
 		<dict>
 			<key>primary</key>
 			<true/>
